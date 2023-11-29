@@ -1,0 +1,53 @@
+:root {
+  --gradient: radial-gradient(
+    circle 815px at 23.4% -21.8%,
+    rgba(9, 29, 85, 1) 0.2%,
+    rgba(0, 0, 0, 1) 100.2%
+  );
+}
+
+.navbar {
+  background-image: var(--gradient);
+}
+
+body {
+  /* min-height: 2000px; */
+}
+
+.jumbotron h1 {
+  -webkit-text-stroke: 0.1vw grey;
+  color: black;
+  background: url(img/smoke.gif);
+  background-size: 50%;
+  background-position: center;
+  height: 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.jumbotron{
+  padding-top: 80px;
+}
+
+.gambar{
+  height: 280px;
+}
+
+section{
+  padding-top:50px;
+}
+
+footer{
+  height:100px;
+  color:white;
+  padding-top:20px;
+  background-image: var(--gradient);
+}
+
+.card{
+  /* height:300px; */
+}
+
+.sosmed{
+  height:25px;
+}
